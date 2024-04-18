@@ -1,4 +1,6 @@
 # Seasonal Flu Vaccines Prediction Analysis
+![image](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/assets/160514617/ee62fd8f-7425-4878-85fc-85aeba8ff104)
+
 ## Project Overview
 A study published in the Journal of the American Medical Association estimated that childhood vaccinations administered from 1994 to 2013 in the US would save $402 billion in direct costs and $1.5 trillion in societal costs.
 
