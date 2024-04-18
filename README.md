@@ -11,9 +11,32 @@ Jelly Insurance Co's policyholders have the lowest vaccination rate amongst all 
 For this project, following dataset was utilized for the analysis:
 
 - 2009 National H1N1 and Flu Vaccination Survey by the United States National Center for Health Statistics
-- The dataset comprises of ~27k phone survey data conducted between late 2009 and early 2010.\
+- The dataset comprises of ~27k phone survey data conducted between late 2009 and early 2010.
   
 The phone survey asked respondents whether they had received the H1N1 and seasonal flu vaccines, in conjunction with questions about them. The additional questions include: social, economic, demographic background, opinions on risks of illness and vaccine effectiveness, and behaviors towards mitigating transmission.
+## Analaysis / Modeling section
+First we created simple logistic regression model as a baseline and two more each from logistic regression from decision tree.
+Then we evaluate our model based on accuracy. For our case the best model is a logistic regression and  has an accuracy of 83%. 
+### Log Regression Model with All Columns and L1 Regularization
+```
+# Log Regression
+logreg2 = LogisticRegression(penalty = 'l1', solver = 'saga',random_state = 5)
+logreg2.fit(X_train_m2_concat_sc, y_train_m2)
+```
+```
+# Predict based on Log Regression model
+y_train_m3_pred = logreg2.predict(X_train_m2_concat_sc)
+y_test_m3_pred = logreg2.predict(X_test_m2_concat_sc)
+```
+```
+# Evaluation Metric #1 - Accuracy, Precision, Recall scores
+m3_train_acc_score = accuracy_score(y_train_m2, y_train_m3_pred)
+m3_test_acc_score = accuracy_score(y_test_m2, y_test_m3_pred)
+m3_train_pre_score = precision_score(y_train_m2, y_train_m3_pred)
+m3_test_pre_score = precision_score(y_test_m2, y_test_m3_pred)
+m3_train_recall_score = recall_score(y_train_m2, y_train_m3_pred)
+m3_test_recall_score = recall_score(y_test_m2, y_test_m3_pred)
+```
 
 ## Future Investigations
 
