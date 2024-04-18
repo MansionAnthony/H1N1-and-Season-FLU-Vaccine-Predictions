@@ -47,7 +47,7 @@ m3_test_recall_score = recall_score(y_test_m2, y_test_m3_pred)
 - Doctor's Recommendation for Seasonal Vaccine
 - Opinion on Effectiveness of Seasonal Vaccine
 - Opinion on Risk of Getting Seasonal Flu
-## Business Recommendation / Conclusion
+## Conclusion
 
 In order to increase the vaccination rate, we propose Jelly Insurance Co's leadership to implement the following strategies:
 
