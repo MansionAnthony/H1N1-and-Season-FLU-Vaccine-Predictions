@@ -15,8 +15,8 @@ For this project, following dataset was utilized for the analysis:
   
 The phone survey asked respondents whether they had received the H1N1 and seasonal flu vaccines, in conjunction with questions about them. The additional questions include: social, economic, demographic background, opinions on risks of illness and vaccine effectiveness, and behaviors towards mitigating transmission.
 ## Analaysis / Modeling section
-First we created simple logistic regression model as a baseline and two more each from logistic regression from decision tree.
-Then we evaluate our model based on accuracy. For our case the best model is a logistic regression and  has an accuracy of 83%. 
+First we created simple logistic regression model as a baseline and two more each from logistic regression and from decision tree.
+Then we evaluate our model based on accuracy. For our case the best model is a logistic regression and  has an accuracy of 83%. Here is the python code for the best model.
 ### Log Regression Model with All Columns and L1 Regularization
 ```
 # Log Regression
@@ -37,7 +37,15 @@ m3_test_pre_score = precision_score(y_test_m2, y_test_m3_pred)
 m3_train_recall_score = recall_score(y_train_m2, y_train_m3_pred)
 m3_test_recall_score = recall_score(y_test_m2, y_test_m3_pred)
 ```
+### The roc_curve 
+![image](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/assets/160514617/e8810834-55f8-4f5d-9214-0016792bf863)
+### The confusion_matrix plot 
+![image](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/assets/160514617/2fbef0ef-dcf1-40f1-aa19-c2407098ce5e)
+Three columns / x-variables that have the highest positive coefficient are:
 
+- Doctor's Recommendation for Seasonal Vaccine
+- Opinion on Effectiveness of Seasonal Vaccine
+- Opinion on Risk of Getting Seasonal Flu
 ## Future Investigations
 
   - Perform analysis with balanced racial representation
