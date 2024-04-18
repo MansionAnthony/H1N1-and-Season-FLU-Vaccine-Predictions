@@ -1,6 +1,10 @@
 # Seasonal Flu Vaccines Prediction Analysis
 
 Using data on how people's opinions, background, health, family, and wealth affects the probability of them getting H1N1 or season vaccines
+## For More Information
+Please review our full analysis in jupyter notebook ([Seasonal Flu Vaccination Prediction Analysis](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/blob/Main/Seasonal%20Flu%20Vaccination%20Prediction%20Analysis.ipynb))\
+And also refer to our 
+- ([Presentation](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/blob/Main/presentation.pdf)) 
 
 ## Contributors
 
