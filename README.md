@@ -1,5 +1,4 @@
 # Seasonal Flu Vaccines Prediction Analysis
-
 ![image](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/assets/160514617/706b542b-c513-456a-9277-9cb5da0acf99)
 Photo by (https://www.fda.gov/news-events/public-health-focus/seasonal-flu-influenza-and-fda)
 ## Project Overview
