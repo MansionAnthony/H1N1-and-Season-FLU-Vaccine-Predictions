@@ -41,11 +41,19 @@ m3_test_recall_score = recall_score(y_test_m2, y_test_m3_pred)
 ![image](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/assets/160514617/e8810834-55f8-4f5d-9214-0016792bf863)
 ### The confusion_matrix plot 
 ![image](https://github.com/MansionAnthony/Seasonal-FLU-Vaccine-Prediction_Analysis/assets/160514617/2fbef0ef-dcf1-40f1-aa19-c2407098ce5e)
-Three columns / x-variables that have the highest positive coefficient are:
+
+### Three columns / x-variables that have the highest positive coefficient are:
 
 - Doctor's Recommendation for Seasonal Vaccine
 - Opinion on Effectiveness of Seasonal Vaccine
 - Opinion on Risk of Getting Seasonal Flu
+## Business Recommendation / Conclusion
+
+In order to increase the vaccination rate, we propose Jelly Insurance Co's leadership to implement the following strategies:
+
+- Educate primary care physicians in the network to recommend vaccination for seasonal flu
+- Increase marketing campaign budget for effectiveness of seasonal flu vaccine
+- Raise awareness of seasonal flu risk via various marketing and communication channels
 ## Future Investigations
 
   - Perform analysis with balanced racial representation
