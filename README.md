@@ -10,8 +10,8 @@ Jelly Insurance Co's policyholders have the lowest vaccination rate amongst all 
 ## Data Understanding and Preparation
 For this project, following dataset was utilized for the analysis:
 
-- 2009 National H1N1 and Flu Vaccination Survey by the United States National Center for Health Statistics\
-- The dataset comprises of ~27k phone survey data conducted between late 2009 and early 2010.
+- 2009 National H1N1 and Flu Vaccination Survey by the United States National Center for Health Statistics
+- The dataset comprises of ~27k phone survey data conducted between late 2009 and early 2010.\
 The phone survey asked respondents whether they had received the H1N1 and seasonal flu vaccines, in conjunction with questions about them. The additional questions include: social, economic, demographic background, opinions on risks of illness and vaccine effectiveness, and behaviors towards mitigating transmission.
 
 ## Future Investigations
